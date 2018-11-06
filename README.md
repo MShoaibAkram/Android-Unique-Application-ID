@@ -5,7 +5,9 @@ To track installations, you could for example use a UUID as an identifier, and s
 
 
 
+
 public class Installation {
+
     private static String sID = null;
     private static final String INSTALLATION = "INSTALLATION";
 
@@ -42,6 +44,7 @@ public class Installation {
 # Here is its Kotlin Version
 
 object Installation {
+
     private var sID: String? = null
     private val INSTALLATION = "INSTALLATION"
 
